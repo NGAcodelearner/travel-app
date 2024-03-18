@@ -5,7 +5,7 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div className="mx-auto max-w-[1440px] px-8 py-10 lg:py-20 lg:px-20 ">
-      <div className="flex flex-col lg:flex-row gap-8 pb-32">
+      <div className="flex flex-col lg:flex-row gap-8 pb-24">
         {/* left */}
         <div className="flex-1 lg:w-1/2 lg:gap-6 relative">
           <div className="relative">
