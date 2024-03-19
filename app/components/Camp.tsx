@@ -56,7 +56,7 @@ const Campsite = ({
 
 const Camp = () => {
   return (
-    <div className="border-2 border-green-500  max-w-[1440px] mx-auto flex flex-col px-8 lg:px-20 py-10 lg:py-20">
+    <div className=" max-w-[1440px] mx-auto flex flex-col px-8 lg:px-20 py-10 lg:py-20">
       <div
         className="hide-scrollbar relative flex items-start justify-start gap-8 overflow-x-auto h-[340px]
       w-full lg:h-[400px]"
