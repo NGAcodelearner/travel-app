@@ -1,3 +1,5 @@
+import { FiMail, FiPhone, FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+
 //navbar
 export const NAV_LINKS = [
     {href: '/', key: 'home', label: 'Home'},
@@ -29,3 +31,29 @@ export const Features = [
     }
 ];
 
+export const FOOTER_LINKS = [
+    {
+      title: 'Learn More',
+      links: [
+        'About Us',
+        'Environment',
+        'Jobs',
+        'Privacy Policy',
+        'Contact Us',
+      ],
+    },
+    {
+      title: 'Our Community',
+      links: ['Climbing ', 'Hiking '],
+    },
+  ];
+
+  export const FOOTER_CONTACT = {
+    title: 'Contact Us',
+    links: [
+      { label: 'Admin Officer', value: '123-456-7890' },
+      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    ],
+  };
+
+ 
